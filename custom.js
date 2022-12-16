@@ -1,4 +1,4 @@
-const navbar = document.querySelector('#header');
+const navbar = document.querySelector('.App-header');
 window.onscroll = () => {
     if (window.scrollY > 100) {
         navbar.classList.add('nav-scrolled');
